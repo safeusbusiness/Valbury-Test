@@ -8,6 +8,8 @@ import 'package:valbury/app/data/commons/constants/text_constant.dart';
 import 'package:valbury/app/data/commons/constants/ui_constant.dart';
 import 'package:valbury/app/data/commons/helpers/assets_helper.dart';
 import 'package:valbury/app/data/commons/widgets/loading_widget.dart';
+import 'package:valbury/app/data/commons/widgets/main_button_transparent_widget.dart';
+import 'package:valbury/app/data/commons/widgets/main_circle_button_widget.dart';
 import 'package:valbury/app/data/commons/widgets/main_empty_data_widget.dart';
 import 'package:valbury/app/data/commons/widgets/main_scaffold_widget.dart';
 import 'package:valbury/app/data/commons/widgets/main_smartrefresher_widget.dart';
@@ -37,7 +39,7 @@ class HomePage extends GetView<HomeController> {
           child: MainScaffoldWidget(
             appBar: MainScaffoldAppbarModel(
               toolbarHeight: !controller.loadingStatus.value
-                  ? (GetPlatform.isAndroid ? 120.h : 80.h)
+                  ? (GetPlatform.isAndroid ? 100.h : 80.h)
                   : kToolbarHeight,
               titleWidgetAppBar: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -59,10 +61,15 @@ class HomePage extends GetView<HomeController> {
                       )
                     ],
                   ),
-                  Image(
-                    image: AssetsHelper.icLogo,
-                    width: 32.w,
-                  ),
+                  Container(
+                    transform: Matrix4.translationValues(16, 5, 0),
+                    child: MainCircleButtonWidget(
+                      onPressed: controller.onStartLogout,
+                      iconData: Icons.logout_rounded,
+                      backgroundColor: Theme.of(context).primaryColor,
+                      iconColor: Colors.white,
+                    ),
+                  )
                 ],
               ),
               bottomAppBar: !controller.loadingStatus.value

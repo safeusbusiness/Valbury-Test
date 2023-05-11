@@ -18,7 +18,7 @@ class SplashController extends BaseControllerHelper {
     if (AppDataConfig.userModel != null) {
       var timestamp = AppDataConfig.timeStampReLogin;
       if (await DateHelper.isTimeDone(timestamp: timestamp)) {
-        await UtilityHelper.onStartLogout();
+        UtilityHelper.onStartLogout();
         AppDataConfig.timeStampReLogin = 0;
       } else {
         Get.offAllNamed(Routes.init);

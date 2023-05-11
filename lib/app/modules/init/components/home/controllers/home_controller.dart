@@ -1,5 +1,9 @@
+import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:valbury/app/data/commons/constants/text_constant.dart';
 import 'package:valbury/app/data/commons/helpers/base_controller_helper.dart';
+import 'package:valbury/app/data/commons/helpers/dialog_utils_helper.dart';
+import 'package:valbury/app/data/commons/helpers/utility_helper.dart';
 import 'package:valbury/app/data/models/banner_model.dart';
 import 'package:valbury/app/data/models/clinic/clinic_model.dart';
 import 'package:valbury/app/data/models/clinic/clinic_type_model.dart';
@@ -109,4 +113,13 @@ class HomeController extends BaseControllerHelper {
     return copiedList;
   }
 
+  void onStartLogout() {
+    DialogUtilsHelper.showPopUpDialog(
+      dialogType: DialogType.info,
+      title: TextConstant.signOutTitle,
+      desc: TextConstant.signOutDesc,
+      btnOkOnPress: UtilityHelper.onStartLogout,
+      btnCancelOnPress: (){}
+    );
+  }
 }

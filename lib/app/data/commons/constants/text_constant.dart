@@ -54,6 +54,8 @@ class TextConstant {
   static const String loadMoreRelease = 'Release to load more';
   static const String loadMoreNoData = 'There is no data to load more';
   static const String emptyData = 'Ops, there is no data, please try again later...';
+  static const String signOutTitle = 'Sign Out';
+  static const String signOutDesc = 'Are your sure want to Sign Out?';
 
   /// Init
   static const String home = 'Home';

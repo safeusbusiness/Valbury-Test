@@ -1,5 +1,7 @@
+import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:get/get.dart';
 import 'package:valbury/app/configs/app_data_config.dart';
+import 'package:valbury/app/data/commons/helpers/dialog_utils_helper.dart';
 import 'package:valbury/app/routes/app_pages.dart';
 
 class UtilityHelper {
@@ -20,15 +22,10 @@ class UtilityHelper {
     return isNotValid;
   }
 
-  static Future<void> onStartLogout({Function()? showLoadingProgress, Function()? hideLoadingProgress}) async {
+  static void onStartLogout() {
     var currentSavedEmail = AppDataConfig.savedEmailRememberMe;
     AppDataConfig.clearAllData();
     AppDataConfig.savedEmailRememberMe = currentSavedEmail;
-    if (showLoadingProgress != null) {
-      showLoadingProgress();
-      await Future.delayed(const Duration(seconds: 3));
-    }
-    if (hideLoadingProgress != null) hideLoadingProgress();
     Get.offAllNamed(Routes.login);
   }
 
