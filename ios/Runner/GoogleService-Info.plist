@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1074939242889-g7vsmt1ju5vrliipb7nconvdboq79tmg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1074939242889-g7vsmt1ju5vrliipb7nconvdboq79tmg</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1074939242889-i7u5tmjjr8m8mp43dghb9psrode6in79.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhJQdkmFoltKj2_9qKa6IzwqINgjTOyXA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1074939242889</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.vulbury</string>
+	<key>PROJECT_ID</key>
+	<string>valbury-a551c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>valbury-a551c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1074939242889:ios:3d70489657da702d011958</string>
+</dict>
+</plist>

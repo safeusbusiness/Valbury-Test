@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "1074939242889",
+    "project_id": "valbury-a551c",
+    "storage_bucket": "valbury-a551c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074939242889:android:c773cae9707fccca011958",
+        "android_client_info": {
+          "package_name": "com.app.valbury"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074939242889-i7u5tmjjr8m8mp43dghb9psrode6in79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.valbury",
+            "certificate_hash": "bad9e1f51fd0d961ec8a33abd8e798fab203f3e1"
+          }
+        },
+        {
+          "client_id": "1074939242889-p3990evr23factaihquscsr9r9h493mh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.valbury",
+            "certificate_hash": "2565cfe2cc797f0c1a3db2bb988c762b7b1d3781"
+          }
+        },
+        {
+          "client_id": "1074939242889-t35habcqb2njsuf2u1qrmfjaje2d8k6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.valbury",
+            "certificate_hash": "7f0dce4a9bafa7c2b5d73181208f71d868066d12"
+          }
+        },
+        {
+          "client_id": "1074939242889-1he9ssh1o3ruros76o47en59gp272ump.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2kY37rRTEDQivnc-_0GHCpILPhMNSl2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074939242889-1he9ssh1o3ruros76o47en59gp272ump.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074939242889:android:70b0179de5b20899011958",
+        "android_client_info": {
+          "package_name": "com.test.valbury"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074939242889-1he9ssh1o3ruros76o47en59gp272ump.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2kY37rRTEDQivnc-_0GHCpILPhMNSl2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074939242889-1he9ssh1o3ruros76o47en59gp272ump.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
