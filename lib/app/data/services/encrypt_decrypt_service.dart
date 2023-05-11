@@ -34,6 +34,6 @@ class EncryptDecryptService {
         }
       }
     }
-    return content!;
+    return content ?? '';
   }
 }
